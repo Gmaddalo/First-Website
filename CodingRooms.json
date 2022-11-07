@@ -1,0 +1,16 @@
+{
+  "image": "lamp-sb",
+  "user": "root",
+  "ports": [
+    {
+      "hostPort": 8080,
+      "containerPort": 80
+    }
+  ],
+  "workspaceBasePath": "/app",
+  "workspaceConfig": {
+    "owner": "www-data",
+    "mode": "2463"
+  },
+  "defaultPort": 80
+}
